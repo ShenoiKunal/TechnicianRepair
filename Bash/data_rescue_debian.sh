@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Adding Universe Repository"
+sudo add-apt-repository universe -y
 echo "Updating Repositories..."
 sudo apt update -y
 echo "Installing ddrescue and ddrescueview (for mapfiles)"
